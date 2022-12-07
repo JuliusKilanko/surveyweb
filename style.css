@@ -78,6 +78,7 @@ header .container .mybtns a {
   padding: 15px 20px;
   background-color: #981E5D;
   color: white;
+  border-radius: 14px;
 }
 header .container .mybtns a:nth-child(1) {
   font-weight: 900;
