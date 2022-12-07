@@ -24,16 +24,29 @@ header nav {
   padding: 5px 20px;
   height: 80px;
 }
-header nav .logo h3 {
+header nav .logo{
+  width: fit-content;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin-top: 110px;
+  text-align: center;
+  
+}
+header nav .logo .texts-Container h3 {
   font-family: "Mulish", sans-serif;
   font-weight: 800;
   font-size: 30px;
 }
-header nav .logo p {
+header nav .logo .texts-Container p {
   font-family: "Mulish", sans-serif;
   font-size: 20px;
   letter-spacing: 1.5px;
   font-weight: 700;
+}
+header nav .logo img{
+  width: 130px;
+  height: 120px;
 }
 header nav .navmenus ul {
   display: flex;
@@ -167,13 +180,24 @@ header .container .mybtns a:nth-child(2):hover {
   font-weight: 800;
   padding: 20px 0;
 }
+.about-us .text-of-about h2{
+  font-size: 18px;
+}
 .about-us .text-of-about .owners-Picture {
   margin-top: 20px;
   display: flex;
   width: 80%;
-  height: 120px;
+  height: 220px;
   background-color: #981E5D;
+  background-image: url(images/owner.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   align-items: center;
+}
+.about-us .text-of-about img{
+  width: 10px;
+  height: 100px;
 }
 .about-us .text-of-about .owners-Picture h2 {
   font-size: 120px;
@@ -351,18 +375,19 @@ header .container .mybtns a:nth-child(2):hover {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
-  margin-top: -175px;
+  margin-top: -115px;
   margin-right: 300px;
 }
-#Gallary .call-btn button {
+#Gallary .call-btn a {
   background-color: #981E5D;
   padding: 30px 30px;
   border: 0;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  color: black;
 }
-#Gallary .call-btn button:hover {
+#Gallary .call-btn a:hover {
   background: white;
   border: solid 1px #981E5D;
   color: #981E5D;
@@ -689,8 +714,8 @@ header .container .mybtns a:nth-child(2):hover {
   margin: auto;
   padding: 50px 60px;
   box-shadow: inset 0px 3px 20px 2px black;
-  margin-top: -120px;
-  margin-bottom: 120px;
+  margin-top: -70px;
+  margin-bottom: 70px;
   text-align: center;
 }
 #out-team h3{
@@ -699,6 +724,36 @@ header .container .mybtns a:nth-child(2):hover {
 #out-team p{
   margin-top: 20px;
   line-height: 30px;
+}
+/*Clients Section*/
+#Our-Clients{
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  margin: auto;
+  padding: 50px 60px;
+  box-shadow: inset 0px 3px 20px 2px black;
+  margin-top: -70px;
+  margin-bottom: 70px;
+  text-align: center;
+  margin-top: 50px;
+  cursor: none;
+}
+#Our-Clients h3{
+  font-size: 40px;
+}
+#Our-Clients ul{
+  list-style: circle;
+  text-align: left;
+  gap: 20px;
+  line-height: 20px;
+  cursor: none;
+}
+#Our-Clients ul li{
+  list-style:square;
+  line-height: 30px;
+  cursor: none;
+  font-size: 18px;
 }
 
 /*Gallery Section*/
@@ -721,6 +776,10 @@ header .container .mybtns a:nth-child(2):hover {
 }
 .big-images{
   width: 300px;
+  box-shadow: 0px 3px 10px 2px black;
+}
+.big-image{
+  width: 350px;
   box-shadow: 0px 3px 10px 2px black;
 }
 .small-image{
