@@ -481,7 +481,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/managingDirector.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/principal\ partner.jpeg);
   background-position: center;
   background-size: cover;
   flex-direction: column;
@@ -518,7 +518,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/principal\ partner.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/managingDirector.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -549,7 +549,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/technical.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)),  url(images/technical.jpeg);
   background-position: center;
   background-size: cover;
 }
