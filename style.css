@@ -481,7 +481,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/WhatsApp\ Image\ 2022-12-03\ at\ 4.35.34\ AM.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/managingDirector.jpeg);
   background-position: center;
   background-size: cover;
   flex-direction: column;
@@ -500,7 +500,7 @@ header .container .mybtns a:nth-child(2):hover {
   padding-left: 30px;
 }
 #teams .the-images-section .first-image .contents h3 {
-  font-size: 45px;
+  font-size: 30px;
   color: #981E5D;
 }
 #teams .the-images-section .first-image .contents h4 {
@@ -518,7 +518,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/WhatsApp\ Image\ 2022-12-03\ at\ 4.35.37\ AM.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/principal\ partner.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -536,7 +536,7 @@ header .container .mybtns a:nth-child(2):hover {
   padding-left: 30px;
 }
 #teams .the-images-section .first-image2 .contents h3 {
-  font-size: 45px;
+  font-size: 30px;
   color: #981E5D;
 }
 #teams .the-images-section .first-image2 .contents h4 {
@@ -549,7 +549,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/WhatsApp\ Image\ 2022-12-03\ at\ 4.35.42\ AM.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/technical.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -571,7 +571,7 @@ header .container .mybtns a:nth-child(2):hover {
   padding-left: 30px;
 }
 #teams .the-images-section .first-image3 .contents h3 {
-  font-size: 45px;
+  font-size: 30px;
   color: #981E5D;
 }
 #teams .the-images-section .first-image3 .contents h4 {
